@@ -11,6 +11,12 @@
 		CBAB3F4B280E81330055CF3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3F4A280E81330055CF3A /* ContentView.swift */; };
 		CBAB3F4D280E81360055CF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAB3F4C280E81360055CF3A /* Assets.xcassets */; };
 		CBAB3F50280E81370055CF3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAB3F4F280E81370055CF3A /* Preview Assets.xcassets */; };
+		CBAB3F57280E81550055CF3A /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = CBAB3F56280E81550055CF3A /* Data.json */; };
+		CBAB3F59280E817D0055CF3A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3F58280E817D0055CF3A /* Book.swift */; };
+		CBAB3F5B280E827D0055CF3A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3F5A280E827D0055CF3A /* DataService.swift */; };
+		CBAB3F5D280E82E90055CF3A /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3F5C280E82E90055CF3A /* BookModel.swift */; };
+		CBAB3F61280E8CA60055CF3A /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3F60280E8CA60055CF3A /* BookCardView.swift */; };
+		CBAB3F63280E94ED0055CF3A /* BookReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3F62280E94ED0055CF3A /* BookReadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		CBAB3F4A280E81330055CF3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBAB3F4C280E81360055CF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBAB3F4F280E81370055CF3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBAB3F56280E81550055CF3A /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		CBAB3F58280E817D0055CF3A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CBAB3F5A280E827D0055CF3A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CBAB3F5C280E82E90055CF3A /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		CBAB3F60280E8CA60055CF3A /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
+		CBAB3F62280E94ED0055CF3A /* BookReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				CBAB3F48280E81330055CF3A /* BookChallengeApp.swift */,
 				CBAB3F4A280E81330055CF3A /* ContentView.swift */,
+				CBAB3F60280E8CA60055CF3A /* BookCardView.swift */,
+				CBAB3F62280E94ED0055CF3A /* BookReadView.swift */,
+				CBAB3F58280E817D0055CF3A /* Book.swift */,
+				CBAB3F5C280E82E90055CF3A /* BookModel.swift */,
+				CBAB3F56280E81550055CF3A /* Data.json */,
+				CBAB3F5A280E827D0055CF3A /* DataService.swift */,
 				CBAB3F4C280E81360055CF3A /* Assets.xcassets */,
 				CBAB3F4E280E81370055CF3A /* Preview Content */,
 			);
@@ -127,6 +145,7 @@
 			files = (
 				CBAB3F50280E81370055CF3A /* Preview Assets.xcassets in Resources */,
 				CBAB3F4D280E81360055CF3A /* Assets.xcassets in Resources */,
+				CBAB3F57280E81550055CF3A /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAB3F63280E94ED0055CF3A /* BookReadView.swift in Sources */,
+				CBAB3F5D280E82E90055CF3A /* BookModel.swift in Sources */,
+				CBAB3F61280E8CA60055CF3A /* BookCardView.swift in Sources */,
 				CBAB3F4B280E81330055CF3A /* ContentView.swift in Sources */,
 				CBAB3F49280E81330055CF3A /* BookChallengeApp.swift in Sources */,
+				CBAB3F59280E817D0055CF3A /* Book.swift in Sources */,
+				CBAB3F5B280E827D0055CF3A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
